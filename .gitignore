@@ -1,0 +1,26 @@
+# build output
+*.obj
+*.exp
+*.lib
+*.dll
+__pycache__/
+dist/
+
+# Text extracted from the original game (English source) and generated images:
+# not redistributed. Regenerate them with the tools from your own copy of the game.
+img_out/
+img_preview/
+trans/units/
+trans/chunks/
+trans/jobs/
+trans/jobs.json
+trans/known.json
+trans/gloss_in/
+trans/glossary_candidates.json
+trans/check_report.json
+trans_exe/chunks/
+trans_exe/jobs/
+trans_exe/fragctx.json
+trans_scen/chunks/
+trans_scen/jobs/
+trans_scen/units.json
